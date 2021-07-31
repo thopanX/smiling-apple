@@ -14,8 +14,8 @@
         <header class="post-header">
           <h1 class="post-title">{{ .Params.title }}</h1>
           <div class="post-meta">
-            Published on <time class="published"
-              datetime="{{ .Date | dateFormat "2006-01-02 15:04" }}">{{ .Date | dateFormat "January 02, 2006" }}</time>
+            Veröffentlicht am <time class="published"
+              datetime="{{ .Date | dateFormat "02.01.2006, 15:04" }}">{{ .Date | dateFormat "02.01.2006" }}</time>
           </div>
         </header><!-- .post-header -->
         {{ if .Params.subtitle }}
